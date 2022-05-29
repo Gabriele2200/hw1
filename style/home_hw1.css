@@ -1,0 +1,126 @@
+
+body {
+    margin: 0px !important;
+}
+
+#ricerca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkcyan;
+   
+    width: 100% ;
+    height: 10%;
+    margin-bottom: unset;
+    
+}
+
+
+
+#barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+header{
+    height: 300px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url(img/paes.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#img-overlay{
+    position: absolute;
+    margin-left: 0;
+    margin-right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#it-testo{
+    width: 780px;
+    height: 330px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titolo{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+#Risposta_R{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    padding: 20px;
+    border: 20px solid darkorange;
+}
+
+#link_m{
+    display: flex;
+    padding: 8px;
+
+    border-radius: 10px;
+    background-color: darkorange;
+    color: white;
+}
+
+.hidden{
+    display: none !important;
+}
+
+
+.No_data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+footer {
+    background-color: darkorange;
+    height: 80px;
+}
+
+footer h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:  relative;
+    
+}
+
+#emf{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    position:  relative;
+    display: flex;
+    color: antiquewhite;
+
+}

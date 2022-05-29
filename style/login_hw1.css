@@ -1,0 +1,115 @@
+main {
+  display: flex;
+
+}
+h1{
+  color: darkorchid;
+}
+
+p {
+  margin: 0;
+}
+
+.errore {
+  font-weight: bold;
+  color: red;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px ;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+input {
+  margin-left: 0.5em;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+#img {
+  background-image: url(img/login3.jpg);
+  /*filter: blur(3px);*/
+  height: 500px;
+  width: 500px;
+  align-items: center;
+  position: absolute;
+
+  opacity: 60%;
+  border-radius: 50px;
+}
+
+body{
+   display: flex;
+  justify-content: space-between;
+  margin: 0;
+  
+}
+
+#foto1{
+  display: flex;
+  background-image: url(img/intro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+
+  width: 33%;
+  height: 100%;
+}
+#Bio{
+  font-size: 42px;
+  color: white;
+
+  font-family: 'Roboto', sans-serif;
+  max-width: 60%;
+}
+
+#div2{
+  align-items: center;
+  background-image: url(img/login.jpg);
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   display: flex;
+   width: 67%;
+   justify-content: center;
+   
+  
+}
+div img{
+  display: flex;
+ 
+  position: absolute;
+  z-index: 999;
+  width: 140px;
+  height: 140px;
+  top: 20px;
+  right: 20px;
+  
+}
+
+
+.hidden{
+  display: none;
+}
+
+.sig_e{
+  color: red;
+
+}
+
+.login_error{
+  color: red;
+  font-size: larger;
+}

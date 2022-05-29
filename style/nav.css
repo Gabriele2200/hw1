@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkorange;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+}
+
+.sezione{
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        background-color: darkcyan;
+        color: white;
+        padding: 3px 10px;
+        border-radius: 20px;    
+    
+}

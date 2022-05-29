@@ -1,0 +1,72 @@
+h1{
+    align-items: center;
+}
+
+article{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+._post{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: max-content;
+}
+
+.post{
+    background-color: #fff;
+    width:calc(100% - 40px);
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.post .author{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    margin-bottom: 10px;
+    color:darkcyan;
+    display: inline;
+    font-size: 50px;
+}
+
+.post .content{
+    width: 100%;
+    margin-bottom: 10px ;
+    
+}
+form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.title{
+    display: flex;
+    font-size: 30px;
+    color: darkorange;
+    text-transform: uppercase;
+
+}
+
+.delete_content{
+    display: flex;
+    align-items: flex-start;
+}
+.delete{
+    color: darkcyan;
+
+}
